@@ -1,10 +1,10 @@
 public interface OrderedList {
 
     String toString();
+
+    void add( int value);
     
     int size();
-    
-    void add( int value);
     
     int get( int value);
     
